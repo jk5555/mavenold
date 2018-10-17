@@ -21,6 +21,9 @@ public class AccountController {
 
         List<Account> accounts = accountService.findAll();
         model.addAttribute("accounts", accounts);
-        return "list";
+
+        //新添加了一行
+        System.out.println("hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh");
+      return "list";
     }
 }
